@@ -15,23 +15,34 @@
 	line-height: 30px;
 }
 
+.page-header{
+	width: 1600px;
+	margin-left: calc((100% - 1600px)/2);
+}
+
 .h-logo{
-	position: absolute;
+	position: relative;
+	float: left;
 	width: 221px;
 	height: 74px;
-	left: 307px;
-	top: 40px;
+	left: 306px;
+	top: 39px;
+}
+
+.h-logo__image{
+	width: 100%;
 }
 
 .h-menu{
-	position: absolute;
+	position: relative;
+	float: right;
+	width: 609px;
+	height: 72px;
+	right: 246px;
+	top: 27px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 609px;
-	height: 72px;
-	left: 746px;
-	top: 27px;
 }
 
 .h-menu__item{
@@ -57,5 +68,10 @@
 	position: absolute;
 	left: -1px;
 	top: -1px;
+	width: 1600px;
+	margin-left: calc((100% - 1600px)/2);
 }
 
+.h-background__layer-1{
+	/*width:100%;*/
+}
