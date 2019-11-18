@@ -1,1 +1,1 @@
- <b>Talent Team Project<\b>
+ <b>Talent Team Project<b>
