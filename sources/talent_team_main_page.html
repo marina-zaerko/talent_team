@@ -1,21 +1,46 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="styles/main_style.css" />
-	<link rel="stylesheet" type="text/css" href="styles/additional_fonts.css" />
+	<link rel="stylesheet" type="text/css" href="styles/fonts/additional_fonts.css" />
 </head>
 
-<body class="body">
-	<header class="page-header ">
-		<section class="h-background  ">
-			<img class="h-background__layer-1" src="styles/backgrounds/h-background__layer-1.svg" >
+<body class="body grid-enabled bordered">
+
+	<div class="body-working-grid">
+		<img class="body-working-grid__image" src="styles/backgrounds/working-column-grid.svg">
+	</div>
+
+	<header class="page-header">
+		<section class="background h-background">
+			<img class="background-elem h-background__layer-1" src="styles/backgrounds/h-background__layer-1.svg" >
 		</section>
-		<section class="h-logo ">
-			<a href="#"><img src="styles/images/h-logo__image.svg" class="h-logo__image "></a>
+
+		<section class="h-logo">
+			<a href="#"><img class="h-logo__image" src="styles/images/h-logo__image.svg"></a>
 		</section>
-		<section class="h-menu ">
+
+		<section class="h-menu">
 			<a href="#" class="h-menu__item">Стажировка</a>
 			<a href="#" class="h-menu__item">О Проекте</a>
 			<a href="#" class="h-menu__item">Для Бизнеса</a>
 			<button class="button h-menu__button">Связаться</button>
 		</section>
 	</header>
+
+	<section class="first-screen">
+		<section class="background first-screen-background">
+			<img class="background-elem first-screen-background__layer-image" src="styles/backgrounds/first-screen-background__layer-image.png">
+			<img class="background-elem first-screen-background__layer-2" src="styles/backgrounds/first-screen-background__layer-2.svg">
+			<img class="background-elem first-screen-background__layer-3" src="styles/backgrounds/first-screen-background__layer-3.svg">
+			<img class="background-elem first-screen-background__layer-4" src="styles/backgrounds/first-screen-background__layer-4.svg">
+			<img class="background-elem first-screen-background__layer-5" src="styles/backgrounds/first-screen-background__layer-5.svg">
+		</section>
+
+		<section class="first-screen-info-block">
+			<div class="first-screen-info-block__header">У ТЕБЯ ЕСТЬ ТАЛАНТ?</div>
+			<div class="first-screen-info-block__introductory-text">Но ты не знаешь как применить его?</div>
+			<div class="first-screen-info-block__main-text">Вместе с нами начинающие специалисты развиваются в сфере digital, создают прибыльные проекты, строят карьерную лестницу.</div>
+			<button class="button first-screen-info-block__button">Подробнее</button>
+		</section>
+	</section>
+
 </body>
