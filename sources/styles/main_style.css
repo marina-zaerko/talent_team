@@ -1,3 +1,4 @@
+
 .disabled{
 	visibility: hidden;
 }
@@ -7,7 +8,7 @@
 }
 
 .grid-enabled .body-working-grid{
-		visibility: visible;
+	visibility: visible;
 }
 
 .text-align_right{
@@ -31,15 +32,16 @@
 .body-working-grid{
 	visibility: hidden;
 	position: absolute;
-	margin: auto;
+	/*margin-left: calc((100% - 1113px)/2);*/
+	margin-left: auto;
 	top: -1px;
 	z-index: 4;
 }
 
 .background{
 	position: absolute;
-	width: 1600px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .background-elem{
@@ -48,8 +50,8 @@
 
 .body{
 	width: 1600px;
-	margin-left: auto;
-	margin-right: auto;
+	overflow-x: hidden;
+	margin-left: calc((100% - 1600px)/2);
 }
 
 .page-header{
