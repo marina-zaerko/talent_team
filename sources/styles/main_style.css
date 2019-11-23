@@ -7,14 +7,6 @@
 	border: 1px solid black;
 }
 
-.grid-enabled .body-working-grid{
-	visibility: visible;
-}
-
-.background-disabled .background{
-	visibility: hidden;
-}
-
 .default-font{
 	font-family: Open Sans;
 	font-style: normal;
@@ -91,19 +83,6 @@
 
 .background-elem{
 	position: absolute;
-}
-
-.body-working-grid{
-	visibility: hidden;
-	position: absolute;
-	width: 1113px;
-	margin-left: calc((1600px - 1113px - 3px)/2);
-	top: 0px;
-	z-index: 4;
-}
-
-.body-working-grid__image{
-	width: 100%;
 }
 
 
