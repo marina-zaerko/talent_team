@@ -1,2 +1,3 @@
- <b>Branch for fixing issues fith first screen background<b>
+<b>Talent Team Project, production branch <b>
 
+	Code is ready for production, but the first screen background needs to be checked
