@@ -639,7 +639,8 @@
 
 .page-footer{
 	height: 104px;
-	top: -564px;
+	top: 10px;
+	margin-top: -574px;
 	background-color: #262626;
 }
 
