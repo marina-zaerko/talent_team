@@ -1,3 +1,2 @@
- <b>Talent Team Project, working branch<b>
+ <b>Branch for fixing issues fith first screen background<b>
 
-code with some additions like working grid, bordered elements and so on
