@@ -1,3 +1,3 @@
- <b>Talent Team Project, working branch<b>
+ <b>Talent Team Project, production branch </b>
 
-code with some additions like working grid, bordered elements and so on
+	Code is ready for production 
