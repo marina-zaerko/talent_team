@@ -1,3 +1,2 @@
- <b>Talent Team Project, working branch<b>
+		<b>Branch for fixing page's encoding issues<b>
 
-code with some additions like working grid, bordered elements and so on
