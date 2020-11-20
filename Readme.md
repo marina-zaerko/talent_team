@@ -1,3 +1,3 @@
-<b>Talent Team Project, production branch<b>
+Что бы посмотреть проект, используйте git clone или скачайте архив
+Для просмотра страниц открывайте соотвтетствующие html файлы
 
-Code is ready for production, but encoidng need to be tested
